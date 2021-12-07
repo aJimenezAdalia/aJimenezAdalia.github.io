@@ -2751,9 +2751,9 @@ projects-link{
 	width:100%
 }
 .images-left, .images-right{
-	padding:10px;
+	padding:0px;
 	border-radius:20px;
-	background-color: rgb(238, 238, 238);
+	background-color: transparent;
 	box-shadow: 0px 0px 5px gray
 }
 .images-left img, .images-right img{
@@ -2761,34 +2761,31 @@ projects-link{
 }
 .images-left-apps{
 	border-radius:20px;
-	background-color: rgb(238, 238, 238);
-	box-shadow: 0px 0px 5px gray;
-	padding:4px
 }
 .images-left:hover, .images-right:hover{
-	box-shadow: 0px 0px 10px gray;
+	box-shadow: 0px 0px 15px gray;
 	transition-duration: 100ms
 }
 .first-nb-apps img{
-	border-top-left-radius: 12px;
+	border-top-left-radius: 10px;
 	border-top-right-radius: 3px;
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px
 }
 .second-nb-apps img{
-	border-top-right-radius: 12px;
+	border-top-right-radius: 10px;
 	border-top-left-radius: 3px;
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px
 }
 .third-nb-apps img{
-	border-bottom-left-radius: 12px;
+	border-bottom-left-radius: 10px;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px
 }
 .fourth-nb-apps img{
-	border-bottom-right-radius: 12px;
+	border-bottom-right-radius: 10px;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 	border-bottom-left-radius: 3px
@@ -2810,12 +2807,13 @@ projects-link{
 	transition-duration: 100ms
 }
 .nb:hover img + .td-notebooks{
+	background-color: white;
+	font-weight: bolder;
 	box-shadow: 0px 0px 10px black inset;
 	transition-duration: 100ms
 }
 .apps-nb{
 	border-collapse: collapse;
-	border-spacing: 8px;
 	position: relative
 }
 .td-notebooks{
@@ -2832,7 +2830,7 @@ projects-link{
 	box-shadow: 0px 0px 5px black inset
 }	
 td, th {
-    padding: 5px
+    padding: 3px
 }
 .apps-nb td{
 	position: relative;
@@ -2861,6 +2859,7 @@ a.project-link{
 	justify-content: center
 }
 .projects-menu{
+	margin-top: 10px;
 	background-color:white;
 	display: none;
 	border-radius: 10px;
